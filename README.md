@@ -22,8 +22,12 @@ This is a simple task management application with user authentication, task crea
 ### Frontend
 
 1. Navigate to the `frontend` directory and install the dependencies:
-   `cd frontend `
-   `npm install`
+
+   ```sh
+   cd frontend
+   npm install
+   ```
+
 2. Start the React application
    `npm start`
 
@@ -55,7 +59,7 @@ This is a simple task management application with user authentication, task crea
 
    - Create a new branch for your changes.
 
-     - `git checkout -b feature-enhancements`
+     `git checkout -b feature-enhancements-[yourname]`
 
 3. Make the Necessary Changes:
 
@@ -64,17 +68,17 @@ This is a simple task management application with user authentication, task crea
 4. Commit Your Changes:
 
    - Ensure you commit your changes with meaningful commit messages.
-   - ```git
-     git commit -m "Add task prioritization feature"
-     git commit -m "Fix token expiration bug"
-     git commit -m "Enhance UI with Material UI components"
+     ```git
+      git commit -m "Add task prioritization feature"
+      git commit -m "Fix token expiration bug"
+      git commit -m "Enhance UI with Material UI components"
      ```
 
 5. Push your changes
 
    Push your changes to the new branch on the remote repository.
 
-   `git push origin feature-enhancements`
+   `git push origin feature-enhancements-[yourname]`
 
 6. Create a Pull Request:
 
