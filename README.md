@@ -17,7 +17,11 @@ This is a simple task management application with user authentication, task crea
 
 2. Start the Server
 
-   `npm start`
+   ```sh
+   npm start
+   ```
+
+3. Sign up on MongoDB Atlas for a free account to connect to MongoDB or use local mongodb server.
 
 ### Frontend
 
@@ -29,7 +33,9 @@ This is a simple task management application with user authentication, task crea
    ```
 
 2. Start the React application
-   `npm start`
+   ```sh
+   npm start
+   ```
 
 ## Coding Challenge Tasks
 
@@ -59,7 +65,9 @@ This is a simple task management application with user authentication, task crea
 
    - Create a new branch for your changes.
 
-     `git checkout -b feature-enhancements-[yourname]`
+     ```git
+     git checkout -b feature-enhancements-[yourname]
+     ```
 
 3. Make the Necessary Changes:
 
@@ -78,7 +86,9 @@ This is a simple task management application with user authentication, task crea
 
    Push your changes to the new branch on the remote repository.
 
-   `git push origin feature-enhancements-[yourname]`
+   ```git
+      git push origin feature-enhancements-[yourname]
+   ```
 
 6. Create a Pull Request:
 
@@ -91,3 +101,4 @@ This is a simple task management application with user authentication, task crea
 - Write clean, maintainable, and well-documented code.
 - Make sure to handle any edge cases or errors appropriately.
 - Focus on using Material UI for a consistent and modern user interface.
+- Submissions with correct pr links and commits will be accepted.
