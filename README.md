@@ -53,7 +53,7 @@ This is a simple task management application with user authentication, task crea
 
 1. Fork the Repo:
 
-   - You will be provided with a VS Code Link for the repo
+   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/chumchumagency/senior-coding-interview-i?quickstart=1)
 
 2. Create a New Branch:
 
