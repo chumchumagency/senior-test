@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://symmetrical-orbit-wxqqv6xqqjvc59wp-5000.app.github.dev/api';
 
 const login = async (credentials) => {
   const response = await fetch(`${API_URL}/auth/login`, {
