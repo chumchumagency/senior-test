@@ -33,9 +33,14 @@ This is a simple task management application with user authentication, task crea
    ```
 
 2. Start the React application
+
    ```sh
    npm start
    ```
+
+3. Add BASE URL to the env file
+   - Create a .env file in the root folder
+   - Add this variable REACT_APP_API_URL and point it to the backend url of your project.
 
 ## Coding Challenge Tasks
 

@@ -1,4 +1,5 @@
-const API_URL = 'http://localhost:5000/api';
+const BASE_URL = process.env.REACT_APP_API_URL;
+const API_URL = `${BASE_URL}/api`;
 
 const login = async (credentials) => {
   const response = await fetch(`${API_URL}/auth/login`, {
@@ -16,6 +17,7 @@ const login = async (credentials) => {
 };
 
 const createTask = async (task) => {
+  const token = localStorage.getItem('token');
   const response = await fetch(`${API_URL}/tasks`, {
     method: 'POST',
     headers: {
@@ -32,6 +34,7 @@ const createTask = async (task) => {
 };
 
 const getTasks = async () => {
+  const token = localStorage.getItem('token');
   const response = await fetch(`${API_URL}/tasks`, {
     headers: {
       Authorization: `Bearer ${token}`,
@@ -44,8 +47,10 @@ const getTasks = async () => {
   return data;
 };
 
-export default {
+const api = {
   login,
   createTask,
   getTasks,
 };
+
+export default api;
